@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!doctype html>
+<html lang="{{ app()->getLocale() }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>kazed</title>
 
@@ -79,16 +85,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    About Us
+                    Equipment
                 </div>
 
-                <div class="links">
-                    <a href="/about Us ">About Us</a>
-                    <a href="/">Home</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                 <div class="links">
+                    <a href="/home ">Home</a>
+                    <a href="/about us">About us</a>
+                    <a href="/previous work">Previous work</a>
+                    <a href="/equipment">Equipment</a>
+                    <a href="/location">Location</a>
+                    <a href="/enquires">Enquires</a>
+                    <a href="/contact Us">Contact Us</a>
                 </div>
             </div>
         </div>

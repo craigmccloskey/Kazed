@@ -1,22 +1,17 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
-
-    <div id="fb-root"></div>
-
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!doctype html>
+<html lang="{{ app()->getLocale() }}">
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Kazed</title>
+        <title>kazed</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -90,10 +85,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Home
+                    Location
                 </div>
 
-               <div class="links">
+             <div class="links">
                     <a href="/home ">Home</a>
                     <a href="/about us">About us</a>
                     <a href="/previous work">Previous work</a>
@@ -102,12 +97,8 @@
                     <a href="/enquires">Enquires</a>
                     <a href="/contact Us">Contact Us</a>
                 </div>
-                <div class="fb-page" 
-                <div id="fb-root"></div>
-</div>
-<div class="fb-page" data-href="https://www.facebook.com/kazed123/?modal=admin_todo_tour" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/kazed123/?modal=admin_todo_tour" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kazed123/?modal=admin_todo_tour">Kazed</a></blockquote></div>
-</div>
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d874.4158233114833!2d176.1407343396341!3d-37.774927753711026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6dd0f12734a515%3A0x5e3f58f0fe37c361!2s1+Warner+Rd%2C+Oropi+3173%2C+New+Zealand!5e1!3m2!1sen!2suk!4v1543448819194" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </body>
 </html>
